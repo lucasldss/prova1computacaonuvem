@@ -1,0 +1,31 @@
+Nome : Lucas Henrique dos Santos
+RA: 418955312035
+
+O que fiz
+
+Executei uma página web em um conteiner docker chamado atendimento.
+usei a imagem nginx:alpine e a porta 8082 do ambiente.
+
+Verificação do conteiner
+CONTAINER ID   IMAGE        COMMAND        CREATED
+              STATUS            PORTS      
+              NAMES
+bfbf56c7b5ab     nginx:alpine     "/docker-entrypoint...."   About a
+minute ago    Up About a minute    0.0.0.0?8082->80/tcp
+
+Teste da página
+
+<!DOCTYPE html>
+<html lang-"pt-BR">
+<head>
+<neta charset="UTF-8">
+<title>Atendimento</title>
+</head>
+<body>
+<h1>Atendimento disponivel</h1>
+</body>
+</html>
+
+
+EXPLICAÇÃO: 
+A principal diferença está no papel que cada um desempenha no ecossistema do Docker (um é o "molde" e o outro é a "construção"), enquanto o mapeamento de portas serve como uma ponte de comunicação.
